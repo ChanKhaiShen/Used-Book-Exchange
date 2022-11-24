@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_brown"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_brown"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="30sp"
+        android:textSize="40sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bookListRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
